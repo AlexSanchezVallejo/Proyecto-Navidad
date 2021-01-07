@@ -3,8 +3,9 @@
 body{
     background-image: url("img/fondo.jpg");
     background-size: cover;
-    position: relative;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 header{
     text-align: center;
@@ -34,33 +35,40 @@ p.cabecera{
     content: url("img/abajo-2.png");
 }
 nav{
+    top: 0;
     height: 50px;
     width: 900px;
     background-color: #474b50;
     color: white;
     text-align: center;
-    position: sticky;
-    margin-bottom: 0px;
+    margin: 0 auto;
+
 }
-li{
+a{
+    text-decoration: none;
     display: inline-block;
-    margin-right: 15px;
-    margin-top: 15px;
-    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
 }
-li:hover{
+a:hover{
     background-color: black;
 }
 main{
-    background-color: white;
     width: 900px;
+    top: 0;
+    margin: 0 auto
+}
+#fotos{
+    background-color: white;
     text-align: center;
-    margin-top: 0px;
 }
 h2{
     font-family: "Source Code Pro", sans-serif;
     font-size: 3em;
     font-weight: 700;
+    margin-top: 0px;
+    padding-top: 25px;
 }
 h3{
     font-family: "Source Code Pro", sans-serif;
@@ -107,4 +115,21 @@ img.japon{
      margin-left: 40px;
      margin-right: 40px;
      height: 250px;
+}
+#formulario{
+    top: 0 ;
+    background-color: #cad1ce;
+    margin-bottom: 300px;
+    }
+#envio{
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    top: 0;
+    padding-top: 0;
+}
+input{
+    margin-left: 40px;
+}
+label{
+    margin-left: 40px;
 }

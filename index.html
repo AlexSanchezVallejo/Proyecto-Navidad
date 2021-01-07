@@ -9,56 +9,75 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
+    <header >
         <h1>VIAJES BOSCO</h1>
         <p class="cabecera">Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</p>
-        <img class="abajo" src="img/abajo-1.png">
+        <img class="abajo" src="img/abajo-1.png" alt="Flecha Abajo">
         <nav>
-            <ul>
-                <li>INTRODUCCIÓN</li>
-                <li>INDIA</li>
-                <li>MÉXICO</li>
-                <li>NUEVA ZELANDA</li>
-                <li>PERÚ</li>
-                <li>ISLANDIA</li>
-                <li>JAPÓN</li>
-            </ul>
+                <a href="">INTRODUCCIÓN</a>
+                <a href="#india">INDIA</a>
+                <a href="#mexico">MÉXICO</a>
+                <a href="#nuevazelanda">NUEVA ZELANDA</a>
+                <a href="#peru">PERÚ</a>
+                <a href="#islandia">ISLANDIA</a>
+                <a href="#japon">JAPÓN</a>
         </nav>
     </header>
     <main>
+        <section id="fotos">
         <h2>NO SUEÑES, VUELA DE VERDAD</h2>
         <p class="subtitulos">Tenemos los mejores aviones hacia destinos de todo el planeta. Sólo dinos dónde quieres ir.</p>
-        <img class="viaje" src="img/viaje.jpg">
-        <article>
+        <img class="viaje" src="img/viaje.jpg" alt="Viaje">
+        <article id="india">
             <h3>INDIA</h3>
-            <img class="india" src="img/india.jpg">
+            <img class="india" src="img/india.jpg" alt="India">
             <p class="subtitulos">Haz click aquí para elegir este destino</p>
         </article>
-        <article>
+        <article id="mexico">
             <h3>MÉXICO</h3>
-            <img class="mexico" src="img/mexico.jpg">
+            <img class="mexico" src="img/mexico.jpg" alt="México">
             <p class="subtitulos">Haz click aquí para elegir este destino</p>
         </article>
-        <article>
+        <article id="nuevazelanda">
             <h3>NUEVA ZELANDA</h3>
-            <img class="nuevazelanda" src="img/nuevazelanda.jpg">
+            <img class="nuevazelanda" src="img/nuevazelanda.jpg" alt="Nueva Zelanda">
             <p class="subtitulos">Haz click aquí para elegir este destino</p>
         </article>
-        <article>
+        <article id="peru">
             <h3>PERÚ</h3>
-            <img class="peru" src="img/peru.jpg">
+            <img class="peru" src="img/peru.jpg" alt="Perú">
             <p class="subtitulos">Haz click aquí para elegir este destino</p>
         </article>
-        <article>
+        <article id="islandia">
             <h3>ISLANDIA</h3>
-            <img class="islandia" src="img/islandia.jpg">
+            <img class="islandia" src="img/islandia.jpg" alt="Islandia">
             <p class="subtitulos">Haz click aquí para elegir este destino</p>
         </article>
-        <article>
+        <article id="japon">
             <h3>JAPÓN</h3>
-            <img class="japon" src="img/japon.jpg">
+            <img class="japon" src="img/japon.jpg" alt="Japón">
             <p class="subtitulos">Haz click aquí para elegir este destino</p>
         </article>
+        </section>
+        <section id="formulario">
+        <h3 id="envio">ENVÍO DE DATOS</h3>
+        <form>
+            <label for="nombre">NOMBRE</label><br>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="apellidos">APELLIDOS</label><br>
+            <input type="text" name="apellidos" id="apellidos"><br>
+            <label for="email">EMAIL</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="viajes_deseados" >VIAJES DESEADOS</label><br>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox"><br>
+            <button>Enviar</button>
+        </form>
+        </section>
     </main>
 </body>
 </html>
