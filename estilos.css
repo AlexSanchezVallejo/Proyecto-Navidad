@@ -5,11 +5,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 }
 header{
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 h1{
     text-align: center;
@@ -35,14 +35,12 @@ p.cabecera{
     content: url("img/abajo-2.png");
 }
 nav{
-    top: 0;
     height: 50px;
     width: 900px;
     background-color: #474b50;
     color: white;
     text-align: center;
     margin: 0 auto;
-
 }
 a{
     text-decoration: none;
@@ -57,21 +55,21 @@ a:hover{
 main{
     width: 900px;
     top: 0;
-    margin: 0 auto
+    margin: 0 auto;
 }
 #fotos{
     background-color: white;
     text-align: center;
 }
 h2{
-    font-family: "Source Code Pro", sans-serif;
+    font-family: "Source Code Sans", sans-serif;
     font-size: 3em;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: 0;
     padding-top: 25px;
 }
 h3{
-    font-family: "Source Code Pro", sans-serif;
+    font-family: "Source Code Sans", sans-serif;
     font-size: 3em;
     font-weight: 700;
 }
@@ -79,57 +77,69 @@ p.subtitulos{
     font-size: 1.5em;
     font-family: Merryweather, serif;
     font-style: italic;
+    margin: 0 40px;
 }
 .viaje{
+    margin: 0 40px;
+    height: auto;
+    width: 820px;
+}
+img.fotos{
     margin-left: 40px;
     margin-right: 40px;
-    height: 500px;
-}img.india{
-    margin-left: 40px;
-    margin-right: 40px;
-    height: 250px;
+    height: auto;
+    width: 300px;
     display: inline-block;
-}
-img.mexico{
-     margin-left: 40px;
-     margin-right: 40px;
-     height: 250px;
-    display: inline-block;
-}
-img.nuevazelanda{
-     margin-left: 40px;
-     margin-right: 40px;
-     height: 250px;
-}
-img.peru{
-     margin-left: 40px;
-     margin-right: 40px;
-     height: 250px;
-}
-img.islandia{
-     margin-left: 40px;
-     margin-right: 40px;
-     height: 250px;
-}
-img.japon{
-     margin-left: 40px;
-     margin-right: 40px;
-     height: 250px;
+    padding: 0;
 }
 #formulario{
-    top: 0 ;
     background-color: #cad1ce;
-    margin-bottom: 300px;
-    }
+    margin: 0 auto 300px;
+    padding: 30px;
+    font-family: "Source Sans Pro", sans-serif;
+}
 #envio{
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
-    top: 0;
-    padding-top: 0;
 }
 input{
-    margin-left: 40px;
+    border: #888d8b 2px solid;
+    width: 90%;
+    margin: 0 40px 25px 40px;
+    padding: 10px;
+    background-color: #cad1ce;
+    font-size: 1.5em;
 }
 label{
     margin-left: 40px;
+    font-size: 80%;
+    color: #484b50;
+    font-weight: bold;
+}
+fieldset{
+    border: #888d8b 2px solid;
+    width: 90%;
+    margin: 0 40px 25px 40px;
+    padding: 10px;
+    background-color: #cad1ce;
+}
+legend{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    color: #484b50;
+}
+button{
+    font-family: "Source Sans Pro",sans-serif;
+    color: #484b50;
+    font-weight: 700;
+    width: 45%;
+    margin-left: 40px;
+    background-color: #cad1ce;
+    border: #484b50 2px solid;
+    padding: 15px;
+}
+button:hover{
+    border: #4096a5 2px solid;
+    color: white;
 }
